@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <!-- types of background colors -->
+
+    <!--bg-primary  -->
+    <!--bg-success  -->
+    <!--bg-info  -->
+    <!--bg-light  -->
+    <!--bg-warning  -->
+    <!--bg-secondary  -->
+    <!--bg-danger  -->
+
+
+
+
+    <!-- typography is used for increasing font size -->
+
+    <!-- font size -->
+
+    <!-- fs-1 -->
+    <!-- fs-2 -->
+    <!--fs-3  -->
+    <!-- fs-4 -->
+    <!-- fs-5 -->
+
+
+    <!-- the display styling does thesame function as the h1 and co. the difference between them is that display increases the font size while h1 and co increases the font size as well as boldens the text -->
+    <!-- dispaly-1 -->
+    <!-- display-2 -->
+    <!--dispaly-3  -->
+    <!--display-4  -->
+    <!--display-5  -->
+
+    <!-- H class -->
+
+    <!--h1  -->
+    <!--  h2-->
+    <!--h3  -->
+    <!-- h4 -->
+    <!-- h5 -->
+
+    <!-- font weight -->
+
+    <!--fw-bold  -->
+    <!--fw-bolder  -->
+    <!--fw-light  -->
+
+    <!--aligning text  -->
+
+    <!--text-center is used to center text  -->
+    <!-- text-end is used to move it to the right-->
+    <!-- text-start is used to move it to the left-->
+
+    <!-- text -->
+
+    <!-- text-uppercase -->
+    <!-- text-lowercase -->
+    <!-- text-capitalize used to capitalize first word in all of a sentence -->
+
+    <!-- Border -->
+
+    <!--border-top  will draw a line at the top-->
+    <!--border-bottom  will draw a line at the bottom-->
+    <!-- border will give an all round border -->
+
+    <!-- to color the border line -->
+
+    <!--boreder-primary  -->
+    <!--border-danger  etc -->
+
+
+
+
+
+
+    <!--colours for text  -->
+
+    <!--text-primary  -->
+    <!--text-success  -->
+    <!--text-info  -->
+    <!--text-light  -->
+    <!--text-warning  -->
+    <!--text-secondary  -->
+    <!--text-danger  -->
+
+
+    <!-- box model include padding and margin -->
+    <!--padding  -->
+
+    <!--p--padding all round  -->
+    <!--py--padding top and bottom  -->
+    <!--px--padding left and right  -->
+    <!--pt--padding  top-->
+    <!--pb--padding bottom  -->
+
+    <!--m--margin allround  -->
+    <!--my--margin top and bottom  -->
+    <!--mt--margin top  -->
+    <!--mb--margin bottom -->
+
+
+    <!--Container is used to create space left and right of a confined text. its just like a padding or margin effect or another explanation is that it centers and horizontally pads our content-->
+
+    <!--container  -->
+
+    <div class="bg-danger text-light py-5 px-2 h1 text-center container text-capitalize">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel cumque quidem nisi! Nostrum eos deleniti enim
+            sapiente quia numquam repellendus odit soluta, voluptates quasi magnam ex doloremque excepturi atque eum.
+        </p>
+        <p class="fs-5 fw-bold border-bottom border-primary"> <span class="fs-1 text-primary">L</span>orem ipsum dolor
+            sit amet consectetur
+            adipisicing elit. Voluptate excepturi magni nostrum laudantium maxime
+            ipsa aliquam nobis corporis animi velit natus necessitatibus, sed atque molestiae ipsum hic aspernatur
+            obcaecati neque!</p>
+        <button class="btn btn-warning text-light btn-lg">Read More</button>
+    </div>
+
+
+    <!--Table  -->
+
+    <!--table-striped  -->
+    <!--table-bordered  -->
+    <!-- table-hover -->
+    <!--  -->
+
+    <table class="table container table-striped table-bordered table-hover table-primary">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Department</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>ViVIAN</td>
+            <td>28</td>
+            <td>Science lab</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Boma</td>
+            <td>25</td>
+            <td>Chemistry</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Jane</td>
+            <td>26</td>
+            <td>Biology</td>
+        </tr>
+    </table>
+
+
+    <!-- LIST -->
+
+    <ul class="list-unstyled">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Pages</li>
+    </ul>
+
+    <!-- Form -->
+
+    <div class="bg-dark text-light py-5">
+        <form action="" class="container">
+            <div class="mb-3">
+                <label for="">First name</label>
+                <input type="text" placeholder="Enter your first Name" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="">Second Name</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <input type="file" class="form-control">
+            </div>
+            <div>
+                <input type="submit" class="btn btn-primary btn-lg">
+            </div>
+        </form>
+    </div>
+
+    <!-- Pagination -->
+
+    <ul class="list-unstyled pagination mt-3 float-end">
+        <li><a class="page-link disabled" href="">previous</a></li>
+        <li><a class="page-link" href="">1</a></li>
+        <li><a class="page-link active" href="">2</a></li>
+        <li><a class="page-link" href="">3</a></li>
+        <li><a class="page-link" href="">4</a></li>
+        <li><a class="page-link" href="">next</a></li>
+    </ul>
+
+    <!-- Progress bar -->
+
+    <div class="progress container mt-4">
+        <div class="progress-bar w-50">
+            <span>50%</span>
+        </div>
+    </div>
+
+
+    <!-- img-fluid is thesame thing as giving an image a width of 100% on your css styling. this sis used to give an image a width of 100%, that is the image will not overflow. -->
+
+    <img class="img-fluid rounded" src="./img/pexels-craig-adderley-1563356.jpg" alt="">
+
+    <!-- Badges -->
+    <div class="container mt-5">
+        <button type="submit" class="btn btn-primary position-relative">messages<span
+                class="position-absolute top-0 badge bg-danger rounded-pill translate-middle">99+</span>
+        </button>
+    </div>
+</body>
+
+</html>

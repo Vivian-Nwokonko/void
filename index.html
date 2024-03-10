@@ -1,0 +1,114 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- breakpoints -->
+<!-- different types of screen size-->
+   
+<!-- col-xs (extra small device - screen is less than 576px)-->
+    <!-- col-sm (small device - screen width is equal to or greater than 576px)-->
+    <!-- col-md (medium device - screen width is equal to or greater than 768px)-->
+    <!--col-lg  (large device - screen width is equal to or greater than 992px)-->
+    <!-- col-xl (extra large device - screen width is equal to or greater than 1200px)-->
+    <!-- col-xxl (extra extra large device - screen width is equal to or greater than 1400px)-->
+
+    <!-- flexbox -->
+
+    <div class="container">
+        <div class="d-md-flex justify-content-between gx-3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quisquam iste cumque veritatis quas rerum
+                cupiditate omnis facilis consequuntur aliquam. Commodi nisi harum expedita molestiae beatae dolorum
+                illum fuga dolore.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia placeat veritatis rem inventore ab,
+                obcaecati modi unde ea architecto, perspiciatis incidunt dignissimos nihil doloribus voluptate
+                laudantium. Itaque amet illo nihil!</p>
+            <p class="d-sm-block d-none">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum atque delectus
+                autem facilis praesentium!
+                Sit culpa corporis doloribus hic in cum labore quos accusamus fuga! Nobis veritatis dolores voluptatem
+                explicabo.</p>
+        </div>
+    </div>
+
+    <!-- GRID used in positioning elements according to various screen size-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <!-- designing of a card with grid -->
+                <div class="card bg-primary text-light">
+                    <div class="card-body">
+                        <h3 class="card-header bg-danger">Unix</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, rerum! Voluptate nobis ex
+                            cupiditate nisi maiores cum dolorum provident veniam a illo? Modi maiores sit voluptatibus
+                            quod
+                            molestiae mollitia dolorum.</p>
+                        <div class="card-footer bg-info">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div>
+                            <!-- this is the line of code where the MODAL was linked -->
+                            <a class="btn btn-success my-2" data-bs-toggle="modal" data-bs-target="#OurModal"
+                                href="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="card bg-primary text-info">
+                    <div class="card-body">
+                        <h3 class="card-header">Today</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus et pariatur atque
+                            maxime
+                            fugit corrupti voluptatibus quis ut id quod cum voluptas similique sit, quaerat expedita
+                            voluptates.
+                            Quam, incidunt aliquid?</p>
+                        <h3 class="card-footer">Tomorrow is good</h3>
+                        <div>
+                            <a class="btn btn-warning" href="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, aspernatur totam ex
+                    necessitatibus sed aliquid, earum eos non consectetur similique at odit. Facere deserunt neque ipsum
+                    quas natus enim saepe.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- MODAL -->
+
+    <div class="modal fade" id="OurModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title">OUR MODAL</h1>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <h1>Welcome to my website</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos autem, aut consequuntur quisquam
+                        unde nobis debitis quaerat? Eveniet, perspiciatis! Repellendus temporibus doloribus repellat
+                        unde perferendis fugiat sapiente placeat, velit ea!</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="./bootstrap-5.3.0-alpha3-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
